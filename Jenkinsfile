@@ -65,7 +65,7 @@ pipeline {
 	            color: '439FE0',
 	            message: "Job '${env.JOB_NAME}' build #${env.BUILD_NUMBER} - Your book store application deployed successfully!",
 	            teamDomain: 'konalms',
-	            tokenCredentialId: 'slack',
+	            tokenCredentialId: 'slackuser',
 	            username: 'jenkins'
 	        )
 	    }
