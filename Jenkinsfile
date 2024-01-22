@@ -64,7 +64,7 @@ pipeline {
 	            channel: 'mychannel',
 	            color: '439FE0',
 	            message: "Job '${env.JOB_NAME}' build #${env.BUILD_NUMBER} - Your book store application deployed successfully!",
-	            teamDomain: 'SIRIUS LYNC',
+	            teamDomain: 'siriuslync',
 	            tokenCredentialId: 'slackuser',
 	            username: 'jenkins'
 	        )
